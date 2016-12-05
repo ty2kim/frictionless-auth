@@ -1,5 +1,6 @@
 var Promise = require('bluebird')
-var clearbit = require('clearbit')(process.env.CLEARBIT_API_KEY)
+// var clearbit = require('clearbit')(process.env.CLEARBIT_API_KEY)
+var clearbit = require('clearbit')("sk_9bf01725057a2b54533f372ec91f46d1")
 var Enrichment = clearbit.Enrichment;
 
 var Clearbit = function () {

@@ -3,7 +3,8 @@ var request = require('request');
 var _ = require('lodash');
 
 const MADKUDU_PREDICTION_API_URL = 'https://api.madkudu.com/v1/predictions';
-const MADKUDU_PREDICTION_API_KEY = process.env.MADKUDU_API_KEY;
+// const MADKUDU_PREDICTION_API_KEY = process.env.MADKUDU_API_KEY;
+const MADKUDU_PREDICTION_API_KEY = "07cf216c41d2ed3cfc74d41cba6379e6";
 
 var MadKudu = function () {};
 
